@@ -1,0 +1,77 @@
+.mid{
+    width: 100vw;
+    height: calc(100vh - 80px);
+    background-color: #313131;
+    /*border: 1px solid skyblue;*/
+    box-sizing: border-box;
+    display: block;
+}
+
+
+.middle{
+    width: 1440px; height: calc(100vh - 80px);
+    /*background-color: white;*/
+    margin: 0px auto;
+    word-break: keep-all;
+}
+
+.EasyUnderStand{
+    border: 2px solid black;
+    width: 360px; height: calc(100vh - 80px);
+    box-sizing: border-box;
+    background-color: #D8D8D8;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-margin-left: 1px;
+    display : block;
+}
+
+.middlePPT{
+    border: 2px solid black;
+    width: calc(100vw - 360px); height: calc(100vh - 80px);
+    background-color: pink;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    word-break: keep-all;
+    padding: 20px;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    overflow-x: hidden;
+}
+.middlePPT2{
+    vertical-align:middle;
+    border: 2px solid black;
+    width: 100vw; height: calc(100vh - 80px);
+    background-color: #313131;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    word-break: keep-all;
+    padding: 20px;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    overflow-x: hidden;
+    color : white;
+}
+
+.EasyBox{
+    border: 2px solid black;
+    color: black;
+    padding : 9px 9px;
+    height : fit-content;
+    width: calc(100vw - (100vw - 100%));
+    /*line-height : 100px;*/
+    box-sizing: border-box;
+    /*padding: 1px 5px 1px 20px;*/
+    text-align: left;
+    text-decoration: none;
+    display:block;
+    /*font-size: 16px;*/
+    transition-duration: 0.3s;
+    cursor: pointer;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    white-space:nowrap;   
+}
+.tab{
+    text-indent: 30px;
+}

@@ -1,0 +1,39 @@
+.middlelist{
+    width : 700px; height: 78px;
+    margin: 0px 0px 0px 205px;
+}
+
+.buttonzz{
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    padding: 0 18px;
+    height: 78px;
+    line-height : 78px;
+            /*padding: 1px 5px 1px 20px;*/
+    text-align:center;
+    text-decoration: none;
+    display:block;
+            /*font-size: 16px;*/
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.portfolio{
+    width: 125px; height: 78px;
+}
+.myself{
+    width: 101px; height: 78px;
+}
+.design{
+    width: 101px; height: 78px;
+
+}
+.programing{
+    width: 158px; height: 78px;
+
+}
+.interest{
+    width: 117px; height: 78px;
+
+}

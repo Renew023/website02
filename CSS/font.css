@@ -1,0 +1,40 @@
+@font-face {
+    font-family: font01;
+    src: url(../Font/BCCARDB.TTF);
+}
+
+.font1{
+    font-size : 20px;
+    font-family:"font01";
+}
+
+@font-face {
+    font-family: Title01;
+    src: url(../Font/BCCARDB.TTF);
+}
+
+.Title1{
+    font-size : 36px;
+    font-family:"Title01";
+    line-height : 48px;
+}
+
+@font-face {
+    font-family: SubTitle01;
+    src: url(../Font/BCCARDB.TTF);
+}
+
+.SubTitle1{
+    font-size: 16pt;
+    font-family:"SubTitle1"
+}
+
+@font-face {
+    font-family: write01;
+    src: url(../Font/BCCARDB.TTF);
+}
+
+.write01{
+    font-size: 12pt;
+    font-family: "write01";
+}

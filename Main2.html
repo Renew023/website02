@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/font.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Banner.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Header.css">
+    <link rel="stylesheet" type="text/css" href="CSS/List.css">
+    <link rel="stylesheet" type="text/css" href="CSS/middle.css">
+
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display : block;
+            text-align: center;
+            background-color: #313131;
+            overflow-x: hidden;
+        }
+
+        .button{
+            background-color: green;
+            border: none;
+            color: white;
+            width : calc(100vw - (100vw - 100%));
+            padding: 0 10px;
+            height : 30px;
+            line-height : 26px;
+            box-sizing: border-box;
+            /*padding: 1px 5px 1px 20px;*/
+            text-align:left;
+            text-decoration: none;
+            display:block;
+            /*font-size: 16px;*/
+            transition-duration: 0.3s;
+            cursor: pointer;
+            text-overflow:ellipsis;
+            overflow: hidden;
+            white-space:nowrap;
+        }
+
+        .button01{
+            background: rgb(241, 241, 241);
+            color: black;
+            border: 1px solid white;
+        }
+        .button01:hover{
+            background: green;
+            color: white;
+        }
+        .button02{
+            background: rgb(241, 241, 241);
+            color: black;
+            border: 1px solid white;
+        }
+        .button02:hover{
+            background: blue;
+            color: white;
+        }
+        .buttonzz:hover{
+            background: white;
+            color: black;
+        }
+    </style>
+    <script>
+        function showPopup() {
+            window.open("List.html", "Test", 'width=500, height=500, left=100, top=50,location=0,status=0,toolbar=0,scrollbars=yes');
+            window.open()
+        }
+        showPopup();
+    </script>
+</head>
+<body>
+    <div class="headline">
+        <div class="headlineM">
+
+            <a href="Main1.html" target ='_self' class="logo">
+            </a>
+
+            <a href="Main2.html" target ='_self' class="font1 buttonzz">
+                기본 정보
+            </a>
+
+            <a href="Main3.html" target ='_self' class="font1 buttonzz">
+                나는 누구인가?
+            </a>
+
+            <a href="Main4.html" target ='_self' class="font1 buttonzz">
+                디자인
+            </a>
+
+            <a href="Main5.html" target ='_self' class="font1 buttonzz">
+                프로그래밍
+            </a>
+
+            <a href="Main6.html" target ='_self' class="font1 buttonzz">
+                그 외에 정보
+            </a>
+        </div>
+    </div>
+    <div class="mid">
+        <div class="middle">
+            
+
+            <div class="middlePPT2 font1" style="text-align:left; padding: 20px 300px;">
+                <img src="images/Profile.png" style="padding: 0px 40px;float: left; width : 40%; background-size: contain;">
+                <p>개인정보</p>
+                <hr align= "left" style= "border-width: 1px; width: 240px;">
+                <p>이름 : 손유민</p>
+                <p>나이 : 19세</p>
+                <hr align= "left" style= "border-width: 1px; width: 240px;">
+                <p>교육과정 : 서울디지텍고등학교 재학 중 </p>
+                <p>&nbsp; &emsp; &emsp; &emsp; 2022년 졸업 예정</p>
+                <hr align= "left" style= "border-width: 1px; width: 240px;">
+                <p>이메일 : anyumin258@gmail.com</p>
+                <p>보조 이메일 : ya1539@naver.com</p>
+                <p>전화번호 : 010-6756-1539</p>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
