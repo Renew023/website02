@@ -1,7 +1,7 @@
 .mid{
     width: 100vw;
     height: calc(100vh - 82px);
-    background-color: white;
+    background-color: #313131;
     /*border: 1px solid skyblue;*/
     box-sizing: border-box;
     display: block;
@@ -42,14 +42,14 @@
     vertical-align:middle;
     /*border: 2px solid black;*/
     width: calc(100vw - (100vw - 100%)); height: calc(100vh - 82px);
-    background-color: white;
+    background-color: #313131;
     box-sizing: border-box;
     overflow-y: scroll;
     word-break: keep-all;
     scroll-behavior: smooth;
     scrollbar-width: thin;
     overflow-x: hidden;
-    color : black;
+    color : white;
 }
 
 .EasyBox{
