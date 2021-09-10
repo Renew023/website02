@@ -1,7 +1,7 @@
 .mid{
     width: 100vw;
-    height: calc(100vh - 80px);
-    background-color: #313131;
+    height: calc(100vh - 82px);
+    background-color: white;
     /*border: 1px solid skyblue;*/
     box-sizing: border-box;
     display: block;
@@ -9,7 +9,7 @@
 
 
 .middle{
-    width: 1440px; height: calc(100vh - 80px);
+    width: 1440px; height: calc(100vh - 82px);
     /*background-color: white;*/
     margin: 0px auto;
     word-break: keep-all;
@@ -17,7 +17,7 @@
 
 .EasyUnderStand{
     border: 2px solid black;
-    width: 360px; height: calc(100vh - 80px);
+    width: 360px; height: calc(100vh - 82px);
     box-sizing: border-box;
     background-color: #D8D8D8;
     overflow-y: scroll;
@@ -28,7 +28,7 @@
 
 .middlePPT{
     border: 2px solid black;
-    width: calc(100vw - 360px); height: calc(100vh - 80px);
+    width: calc(100vw - 360px); height: calc(100vh - 82px);
     background-color: pink;
     box-sizing: border-box;
     overflow-y: scroll;
@@ -41,7 +41,7 @@
 .middlePPT2{
     vertical-align:middle;
     /*border: 2px solid black;*/
-    width: calc(100vw - (100vw - 100%)); height: calc(100vh - 80px);
+    width: calc(100vw - (100vw - 100%)); height: calc(100vh - 82px);
     background-color: white;
     box-sizing: border-box;
     overflow-y: scroll;

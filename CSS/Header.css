@@ -1,7 +1,7 @@
 .headline{
     width: 100vw;
     height: 80px;
-    background-color: #434343;
+    background-color: white;
     /*border: 1px solid skyblue;*/
     box-sizing: border-box;
     display: block;
@@ -9,12 +9,11 @@
 .headlineM{
     width: 1440px; height: 78px;
     margin: 0px auto;
-    background-color: #434343;
+    background-color: white;
     /*border: 2px solid yellow;*/
     box-sizing: border-box;
     vertical-align: bottom;
     display:flex;
-    
     align-items: center;
 }
 
