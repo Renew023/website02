@@ -4,9 +4,16 @@
 }
 
 .font1{
+    font-size : 16px;
+    font-family:"font01";
+}
+
+.font2{
     font-size : 20px;
     font-family:"font01";
 }
+
+
 
 @font-face {
     font-family: Title01;
