@@ -41,16 +41,15 @@
 .middlePPT2{
     vertical-align:middle;
     /*border: 2px solid black;*/
-    width: 100vw; height: calc(100vh - 80px);
-    background-color: #313131;
+    width: calc(100vw - (100vw - 100%)); height: calc(100vh - 80px);
+    background-color: white;
     box-sizing: border-box;
     overflow-y: scroll;
     word-break: keep-all;
-    padding: 20px;
     scroll-behavior: smooth;
     scrollbar-width: thin;
     overflow-x: hidden;
-    color : white;
+    color : black;
 }
 
 .EasyBox{
